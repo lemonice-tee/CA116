@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+
+import sys
+
+s = sys.stdin.read()
+correct = {}
+i = 0
+
+while i < len(s):
+  j = i
+  tokens = s[i].rstrip().split(".")
+  #     DIVIDE THE SENTENCE INTO PARTS SO THAT ".PY" WONT  BE SEEN AS MORE
+  # SIGNIFICANT THAN THE NEEDED-TO-BE-EVALUATED VARIABLE// "CORREC/ INCORRECT"
+  correct[tokens[0] + "." + tokens[1]]
+  for 
+
+
+
+  i += 1
