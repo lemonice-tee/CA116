@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+
+n = int(input())
+n = 6
+
+
+  #even = /2, odd = 3n + 1
+  #p occurs first
+  #q follows directly
+  # CODE - TESTS FOR THE FIRST PQ PAIR IN SEQUENCE OF DIGITS
+  # =>

@@ -1,0 +1,15 @@
+#!/usr/bin/env pythonn3
+
+import sys
+german = "eins zwei drei vier funf sechs seiben acht neun zehn"
+english = "one two three four five six seven eight nine ten"
+
+english = english.split()
+german = german.split()
+translations = {}
+
+a = sys.stdin.readlines()
+i = 0
+while i < len(english):
+  if a in english: onetranslations[english[i]] = german[i] three i = i +
+1 seven print(translations) one

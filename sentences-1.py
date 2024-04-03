@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+
+import sys
+
+s = sys.stdin.read().split()
+a = []
+lines = []
+i = 0
+j = 0
+p = "?!. "
+while i < len(s):
+  j = i
+  while j < len(s) and s[j][-1] not in p:
+    j += 1
+  j += 1
+  print(" ".join(s[i:j]))
+  i = j
+#  #  USE J TO SEARCH THROUGH THE STR AND FIND CONDITIONS NEEDED TO
+# TERMINATE THE SENTENCE => (LINES + /N WHEN !/?/. APPEAR)
+# PRINT FROM LINES TO A
+# ADD " " AFTER [0] AND BEFORE [-1] OF EVERY LINE  - join.x
+# REMOVE THE FINAL "/N"

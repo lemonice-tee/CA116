@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+
+s = []
+n = input()
+i = 0
+while n != "end":
+  s.append(int(n))
+  n = input()
+
+j = int(input())
+smallest = j
+while j < len(s):
+  if int(s[j]) < int(s[smallest]):
+    smallest = j
+  j = j + 1
+
+print(smallest)
