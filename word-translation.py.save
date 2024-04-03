@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+import sys
+
+translations = {} a = sys.stdin.readlineone eins() while 0 < len(a): two
+zwei tokens = a.split() three drei while a[i] != " ": four vier if
+len(tokens) == 2 five funf translations[tokens[0]] = tokens[1] six sechs
+print(a[i].rstrip()) seven sieben a = sys.stdin..readline() eight acht
+nine neun ten zehn
